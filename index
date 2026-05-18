@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Express</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <h1>FoodExpress</h1>
+
+        <ul>
+            <li>Home</li>
+            <li>Restaurants</li>
+            <li>Offers</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+
+        <div class="hero-text">
+            <h2>Delicious Food Delivered Fast</h2>
+            <p>Find your favorite meals from top restaurants near you.</p>
+
+            <input type="text" placeholder="Search food or restaurant">
+            <button>Search</button>
+        </div>
+
+        <img src="../query/food.jpeg" alt="food">
+
+    </section>
+
+    <!-- RESTAURANTS -->
+    <section class="restaurants">
+
+        <div class="card">
+            <img src="../query/pizza1.jpeg">
+            <h3>Pizza Hub</h3>
+            <p>Fast & cheesy pizzas</p>
+        </div>
+
+        <div class="card">
+            <img src="../query/burger.jpeg">
+            <h3>Burger Town</h3>
+            <p>Juicy burgers & fries</p>
+        </div>
+
+        <div class="card">
+            <img src="../query/rice.jpeg" width="300" height="300">
+            <h3>Rice Bowl</h3>
+            <p>Local & continental meals</p>
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 FoodExpress</p>
+    </footer>
+
+</body>
+</html>
